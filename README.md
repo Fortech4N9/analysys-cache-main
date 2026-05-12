@@ -35,7 +35,7 @@ make up
 | `cache-analysis-worker` | Go 1.22 + wine + `CacheSim.exe`             | Кэш-симуляция `.c` → JSON-артефакт с L1/L2/Arrays                         |
 | `frontend`         | Vue 3 + Vite + Pinia + Tailwind v4 + Monaco | UI пользователя/админа на русском с переключателем тёмной/светлой темы    |
 | `infra`            | Docker Compose + Nginx                      | Точка входа и единый запуск всего стека                                   |
-| `docs-portal`              | VitePress                                   | Документация архитектуры и контрактов                                     |
+| `docs`              | VitePress                                   | Документация архитектуры и контрактов                                     |
 
 ## Учётные данные по умолчанию
 
@@ -47,7 +47,7 @@ make up
 | ClickHouse       | `default`                   | `clickhouse_secret`   |
 | Redis            | —                           | `redis_secret`        |
 
-Все значения переопределяются через `diploma-infra/.env`.
+Все значения переопределяются через `infra/.env`.
 
 ## Команды Makefile
 
@@ -65,7 +65,7 @@ make up
 ## Документация
 
 ```bash
-cd docs-portal
+cd docs
 docker compose up -d docs   # http://localhost:8088
 ```
 
@@ -75,7 +75,7 @@ docker compose up -d docs   # http://localhost:8088
 
 1. Откройте http://localhost:8080/, войдите как `admin@system.local` / `admin`.
 2. Создайте проект на странице «Проекты».
-3. Загрузите файл `diploma-infra/samples/loop.c` и дождитесь статуса «Готово».
+3. Загрузите файл `infra/samples/loop.c` и дождитесь статуса «Готово».
 4. Метрики появятся по клику на «Метрики».
 
 ## Замечание по платформам

@@ -1,0 +1,27 @@
+[submodule "docs"]
+	path = docs
+	url = https://github.com/Fortech4N9/docs.git
+[submodule "core-api"]
+	path = core-api
+	url = https://github.com/Fortech4N9/core-api.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Fortech4N9/frontend.git
+[submodule "infra"]
+	path = infra
+	url = https://github.com/Fortech4N9/infra.git
+[submodule "vscode"]
+	path = vscode
+	url = https://github.com/Fortech4N9/vs-code.git
+[submodule "vs-code"]
+	path = vs-code
+	url = https://github.com/Fortech4N9/vs-code.git
+[submodule "static-analysis-worker"]
+	path = static-analysis-worker
+	url = https://github.com/Keplar-01/static-analysis-worker.git
+[submodule "cache-analysis-worker"]
+	path = cache-analysis-worker
+	url = https://github.com/Keplar-01/cache-analysis-worker.git
+[submodule "analysis-api"]
+	path = analysis-api
+	url = https://github.com/Keplar-01/analysis-api.git

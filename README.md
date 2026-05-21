@@ -64,6 +64,10 @@ make up
 | `make clean`    | down + удалить тома (всё стирается)                               |
 | `make status`   | Проверить health                                                  |
 
+## Production (Yandex Cloud + Kubernetes)
+
+Инфраструктура: **[infra/MANUAL.md](infra/MANUAL.md)** (полный мануал), **[infra/DEPLOY-K8S.md](infra/DEPLOY-K8S.md)** (команды).
+
 ## Документация
 
 ```bash

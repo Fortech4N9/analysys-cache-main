@@ -40,12 +40,9 @@ worker-static-analyzer/static-analyzer
 # Coverage
 coverage/
 *.lcov
-
-# Vite
-**/.vite/
-**/.cache/
-
-# VS Code extension package output
+terraform.tfstate
+scripts/
+cats
 *.vsix
 
 # TypeScript build info
